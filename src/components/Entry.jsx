@@ -65,6 +65,37 @@ export default function Header() {
             </ul>
           </div>
         </section>
+        <section>
+          <div className="first-div">
+            <img
+              className="places-img"
+              src="./great-wall.webp"
+              alt="wall of china"
+            />
+          </div>
+          <div className="second-div">
+            <ul>
+              <span className="span">
+                <img
+                  className="location-dot"
+                  src="./location-dot-solid.svg"
+                  alt=""
+                />
+                <p> ITALY</p>
+                <a href="https://maps.app.goo.gl/99P8hUCuPeT4AswNA">
+                  View on Google Maps
+                </a>
+              </span>
+              <h1>Colosseum</h1>
+              <p className="date-p">5 January 2025 - 12 2025</p>
+              <p className="description-p">
+                Exploring the Colosseum was like walking through the heart of
+                ancient Rome, where every stone seemed to whisper stories of
+                gladiators and emperors.
+              </p>
+            </ul>
+          </div>
+        </section>
       </main>
     </>
   );
