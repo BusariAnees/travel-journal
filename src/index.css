@@ -6,6 +6,7 @@ body {
     font-style: normal;
     border-radius: 5px 5px 0 0;
     border: 1px solid #0000001c;
+    padding-bottom: 2rem;
 }
 header {
     border-radius: 5px 5px 0 0;
