@@ -6,8 +6,8 @@ export default function Header(props) {
             <div className="first-div">
               <img
                 className="places-img"
-                src={props.img}
-                alt="mount fuji"
+                src={props.img.src}
+                alt={props.img.alt}
               />
             </div>
             <div className="second-div">
